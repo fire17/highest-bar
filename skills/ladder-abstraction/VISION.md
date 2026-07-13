@@ -1,0 +1,9 @@
+can you also do the same exact process to make another skill that is specially dedicated to climbing the ladder of abstractions - make it the ultimate skill - that can be used in every new project i want to make that will manifest such increadibly state of the art stunning and revolutionizing uxs - take a look at the message you found originally it has some context and a paragraph on how its revolutionary - include all of that and related context when creaing the mega skill for /ladder-abstriaction - and also use the /watch skill iteritively and intelligently at any usefull part of the entire skill building process as much as you need to offer the best results - both the transcript and the visuals (and even time-spanning) interactions should be understood - now its very important that this becomes generic and not specific to creating the examples shown in the video but rather distill the essense of the idea and concept and vision and apply it dynamically in the most usefull way for every project tailored to its style and tone and data and the important things releveant to it - creating a brand new unique and state of the art ux and design and behavior everytime from first principals + the nature of the current project 
+
+and at the very very end after the entire whole process for building this ultimate skill is made - make a hybrid so that /highest-bar-abstract would activate both of them as one skill (and the regular /highest-bar should have some knowledge of the abstraction principles but not enforce them like it might do currently)
+
+and also to test how it worked out
+before starting everything please activate the new /highest-bar skill yourself (meta) and we will see infact if you truely dont miss a thing and create something that is undescribly astonishing
+
+---
+> sha256 of this file: see sidecar `VISION.sha256` (footer self-hash would be circular)

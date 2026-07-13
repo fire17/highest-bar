@@ -1,0 +1,12 @@
+[
+  {
+    "id": 1,
+    "prompt": "im building an incident-response dashboard for our on-call team, we have ~2000 alerts/day across 40 services, postmortems, and a runbook wiki. the team drowns in noise. design the UX before we build. /ladder-abstraction",
+    "expected": "Derives a project-specific ladder (LADDER.md): named task per altitude, changed vocabulary per rung (alert→incident→service-health→org-risk style, derived not copied), dropped-info lists, actions at every rung incl. an act-from-big-picture flow (e.g. ack/escalate a cluster), provenance drill-down, zoom glue + budgets, semantic axes fitted to incident data. No Airbnb/book examples copied."
+  },
+  {
+    "id": 2,
+    "prompt": "we have a reading app for legal contracts, lawyers say they cant see the forest for the trees in 300-page agreements. how should the interface work? make it revolutionary but practical.",
+    "expected": "Triggers ladder thinking without the skill being named: multi-rung re-representation of a contract (clause→obligation-map→risk-profile style, derived from legal tasks), edit/act at altitude with propagation preview, evidence-backed derived fields (obligations, dates, risk flags with clause citations), zoom control + continuity, no chat-primary interface, acceptance tests applied."
+  }
+]

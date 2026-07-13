@@ -1,0 +1,1 @@
+../engineering-principles-pro/SKILL.md

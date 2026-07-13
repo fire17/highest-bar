@@ -1,0 +1,5 @@
+[
+  {"id": 1, "prompt": "watch https://www.youtube.com/watch?v=jNQXAC9IVRw and tell me what happens in the video", "expected": "Downloads the 19s 'Me at the zoo' video, extracts frames + transcript, answers grounded in both (elephants at the San Diego Zoo, presenter speaking to camera)."},
+  {"id": 2, "prompt": "just get me the transcript of https://www.youtube.com/watch?v=jNQXAC9IVRw - don't waste tokens on visuals", "expected": "Routes to transcript detail mode: captions only, NO video download, no frames; returns timestamped text in seconds."},
+  {"id": 3, "prompt": "I have a screen recording at ~/demo.mov with no captions - what do I say in it?", "expected": "Local file path accepted; no captions -> falls back to LOCAL whisper (mlx) transcription on-device; explains nothing is uploaded."}
+]
