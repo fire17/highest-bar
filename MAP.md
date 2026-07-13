@@ -1,7 +1,8 @@
 # THE MAP — /highest-bar full nested-skill closure (v2)
 
-Derived 2026-07-13 by 6 parallel Opus mappers; hardened by adversarial miss-hunt
-cycle 1 (2 hunters: 16 findings, all resolved below); cycle 2 verified clean.
+Derived 2026-07-13 by 6 parallel Opus mappers; hardened by FIVE adversarial
+miss-hunt cycles (30 findings total: c1 16, c2 5, c3 6, c4 3; cycle 5 CLEAN —
+incl. live sandbox install + full script compile).
 Legend: 📄 markdown-only · ⚙ has code · 🔗 symlink · 🧩 plugin/builtin ·
 📚 external payload · ⛔ hard blocker · ⚠ degraded/annoyance
 

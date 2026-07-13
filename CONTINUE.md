@@ -38,8 +38,11 @@ Three skills were created and darwin-optimized here:
   `~/Creations/OS-overlay`.
 - Rebuild the bundle from the live tree: `./build_repo.sh`. Install: `./install.sh`.
 
+Note: `conversation/`, `CLAUDE.md` (the godmode), `.project/`, `.save_and_ship/`
+are LOCAL-ONLY (gitignored) — a GitHub clone deliberately has none of them.
+
 ## Next steps
-- CLAUDE.md godmode for this project (in progress in the founding session)
+- ~~CLAUDE.md godmode~~ — done 2026-07-13 (local-only; .deify/ is its root)
 - Expand the stack as fire17 sees fit — the godmode makes additions easy
 - Optional: registry entries for the individual skills (only HighestBar itself is
   registered)
