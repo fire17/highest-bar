@@ -92,6 +92,21 @@ for the manifest.
   registry-wide vault law (see ~/Creations/CLAUDE.md), enforced here so no /sas run can
   forget it.
 
+## Portability — what applies on a machine without `~/Creations`
+
+The snapshot and ship halves work anywhere. The registry half is specific to fire17's
+`~/Creations` vault, so on any other machine:
+
+- **Phase 4 (registry) and the vault sync are NOT APPLICABLE** — skip them and record
+  "no ~/Creations on this machine" as the reason. That is a correct outcome, not a gap;
+  do not invent a registry, and do not report the phase as failed.
+- Phases 1–3 (locate transcript, harvest, write the snapshot) and Phase 5–6 (ship,
+  verify, report) all still apply in full.
+- The gates in Phase 5 need their skills installed. `install.sh` in this repo installs
+  `/shipit`, `/awesome-readme` and `/ripple` alongside this skill for exactly that
+  reason. If a gate's skill is genuinely missing, say which one and that its checks did
+  not run — never claim a gate passed that never executed.
+
 ## Phase 4 — Register in the Creations registry
 
 The snapshot lives inside the registry, so it must be an entry — three surfaces changed
@@ -118,6 +133,16 @@ before anything else.
   the machine, so chaining into it is always safe.
 - **UPDATE + already published**: the gate passed, so propose the update ship (version
   bump, release notes, formula/installer refresh) via shipit's publish/retrospect phases.
+- **The AGENT-FIRST README block — every published surface, no exceptions.** The
+  first section of the README (right under the banner/badges, before any prose
+  aimed at humans) addresses **AI agents directly**: the one-command install, a
+  table mapping what the agent will be TOLD to what it must DO (which skill to
+  invoke, which command to run), and the two or three rules that make it use the
+  thing *correctly* rather than merely successfully — where the authority lives
+  (a prefs/config file over the docs' prose), whether to re-read from disk
+  instead of recalling, and what it must propagate. Most readers of a skill repo
+  are agents pointed at it by a human; a README that only speaks to humans makes
+  them guess. Verify it renders as the first content after the header.
 - **The README gate (/awesome-readme) — mandatory before true completion.** Whenever the
   run touches a public repo surface (fresh ship or update), load the **awesome-readme**
   skill and hold the repo's README to its bar — the 13-element checklist + the live
